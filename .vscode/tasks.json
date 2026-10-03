@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=gnu++20",
+                "-O2",
+                "-Wall",
+                "-I",
+                "${env:HOME}/ac-library",
+                "main.cpp",
+                "-o",
+                "a.out"
+            ],
+            "group": "build",
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "command": "./a.out"
+        }
+    ]
+}
