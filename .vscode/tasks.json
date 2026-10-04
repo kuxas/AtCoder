@@ -6,22 +6,42 @@
             "type": "shell",
             "command": "g++",
             "args": [
+                "${file}",
                 "-std=gnu++20",
                 "-O2",
                 "-Wall",
                 "-I",
-                "${env:HOME}/ac-library",
-                "main.cpp",
+                "/home/uribo/atcoder/ac-library",
                 "-o",
-                "a.out"
+                "${fileDirname}/a.out"
             ],
-            "group": "build",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
             "problemMatcher": ["$gcc"]
         },
         {
-            "label": "run",
+            "label": "Debug Compile",
             "type": "shell",
-            "command": "./a.out"
+            "command": "/usr/bin/g++",
+            "args": [
+                "-std=gnu++20",
+                "-O0",
+                "-g",
+                "-Wall",
+                "-I",
+                "/home/uribo/atcoder/ac-library",
+                "${file}",
+                "-o",
+                "${fileDirname}/test.out"
+            ],
+            "group": "build",
+            "problemMatcher": ["$gcc"]
         }
+
     ]
 }
