@@ -1,0 +1,64 @@
+{
+  "contest": {
+    "id": "adt_easy_20261005_1",
+    "title": "AtCoder Daily Training EASY 2026/10/05 16:00start",
+    "url": "https://atcoder.jp/contests/adt_easy_20261005_1"
+  },
+  "tasks": [
+    {
+      "id": "abc444_a",
+      "label": "A",
+      "title": "Repdigit",
+      "url": "https://atcoder.jp/contests/adt_easy_20261005_1/tasks/abc444_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc333_a",
+      "label": "B",
+      "title": "Three Threes ",
+      "url": "https://atcoder.jp/contests/adt_easy_20261005_1/tasks/abc333_a",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc402_b",
+      "label": "C",
+      "title": "Restaurant Queue",
+      "url": "https://atcoder.jp/contests/adt_easy_20261005_1/tasks/abc402_b",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc345_b",
+      "label": "D",
+      "title": "Integer Division Returns",
+      "url": "https://atcoder.jp/contests/adt_easy_20261005_1/tasks/abc345_b",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc281_c",
+      "label": "E",
+      "title": "Circular Playlist",
+      "url": "https://atcoder.jp/contests/adt_easy_20261005_1/tasks/abc281_c",
+      "directory": {
+        "path": "e",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
+    }
+  ]
+}

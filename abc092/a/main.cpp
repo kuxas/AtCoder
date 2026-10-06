@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+#include <atcoder/all>
+using namespace std;
+using namespace atcoder;
+
+using ll = long long;
+using ld = long double;
+using pii = pair<int,int>;
+using pll = pair<ll,ll>;
+
+#define rep(i,n) for(int i=0;i<(n);i++)
+#define all(v) v.begin(), v.end()
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    // --- write code here ---
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
+
+    int ans = 0;
+    if (a > b) ans = b;
+    else ans = a;
+
+    cout << (c < d ? ans + c : ans + d) << '\n';
+    /*
+    cout << min(a, b) + min(c, d) << '\n';
+    */
+    return 0;
+}
